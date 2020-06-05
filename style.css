@@ -1,25 +1,25 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+* {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
 }
 
-body{
-    background-color: lightgray;
+body {
+        background-color: lightgray;
 }
 
 /* Editing the Navbar */
 
-#navbar{
-    display: grid;    
+#navbar {
+        display: grid;
 }
 
-.navbar-functions{
-    grid-column-start: 3;
-    grid-column-end: 3;
-    border: 1px red solid;
-    display: inline-flex;
-    justify-content: flex-end;
-    padding: 7px;
-    font-size: 12px;
+.navbar-functions {
+        grid-column-start: 3;
+        grid-column-end: 3;
+        border: 1px red solid;
+        display: inline-flex;
+        justify-content: flex-end;
+        padding: 7px;
+        font-size: 12px;
 }
