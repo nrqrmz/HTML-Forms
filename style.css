@@ -8,6 +8,12 @@ body {
   background-color: lightgray;
 }
 
+a {
+  text-decoration: none;
+  padding: 5px;
+  color: #2842ff;
+}
+
 /* Editing the Navbar */
 #navbar {
   display: grid;
@@ -26,12 +32,6 @@ body {
   padding: 5px;
 }
 
-.forgotten-password a {
-  text-decoration: none;
-  padding: 5px;
-  color: #2842ff;
-}
-
 .sign-in {
   padding: 5px 5px 0 5px;
   margin: 0 40px 0 0;
@@ -48,4 +48,25 @@ body {
 
 .sign-in i {
   margin-right: 10px;
+}
+
+/* Editing Container */
+
+.flex{
+  display:flex;
+  justify-content: center;
+}
+
+.container{
+  border: 1px gray solid;
+  background-color: white;
+  margin: 50px;
+  padding: 25px;
+  width: 31%;
+  border-radius: 5px;
+}
+/* Editiing Footer */
+
+.footer-links{
+  color: gray;
 }
