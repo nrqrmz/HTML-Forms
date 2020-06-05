@@ -13,6 +13,9 @@ a {
   color: #2842ff;
 }
 
+footer {
+  justify-content: center;
+}
 /* Editing the Navbar */
 #navbar {
   display: grid;
@@ -59,12 +62,23 @@ a {
   justify-content: center;
 }
 
+.intuit-logo-container {
+  text-align: center;
+}
+
+.intuit-logo {
+  text-align: center;
+  max-width: 8%;
+  max-height: auto;
+}
+
 .container {
   border: 1px gray solid;
   background-color: white;
   margin: 50px;
   width: 31%;
   border-radius: 5px;
+  max-width: 750px;
 }
 
 .container-header{
@@ -135,4 +149,20 @@ a {
 /* Editing Footer */
 .footer-links {
   color: gray;
+}
+
+.footer-links-container{
+  text-align: center;
+}
+
+.disclaimer{
+  text-align: center;
+  width: 80%;
+}
+
+.disclaimer-container{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 10px;
 }
