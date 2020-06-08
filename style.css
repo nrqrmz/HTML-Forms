@@ -77,43 +77,28 @@ footer {
 }
 
 .logos-container {
-  border: red solid 1px;
   display: flex;
   justify-content: center;
-  vertical-align: middle;
+  margin: 20px;
 }
 
-.logo-mint {
-  max-width: 30px;
-  max-height: auto;
+.logos {
+  width: 30px;
+  height: 30px;
 }
 
-.label-mint {
-  border: black solid 1px;
-}
-
-.logo-quickbooks {
-  max-width: 30px;
-  max-height: auto;
-}
-
-.label-quickbooks {
-  border: black solid 1px;
-}
-
-.logo-turbotax {
-  max-width: 30px;
-  max-height: auto;
-}
-
-.label-turbotax {
-  border: black solid 1px;
+.labels {
+  margin-top: 0.5%;
+  margin-right: 10px;
+  margin-left: 5px;
+  display: flex;
+  color: grey;
 }
 
 .container {
   border: 1px gray solid;
   background-color: white;
-  width: 400px;
+  width: 380px;
   border-radius: 5px;
   max-width: 750px;
   margin-bottom: 20px;
@@ -122,10 +107,16 @@ footer {
 .container-header {
   padding: 10px 0;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .container-header h2 {
   margin: 10px 0 10px 0;
+}
+
+.container-header p,
+.container-header a{
+  font-size: small;
 }
 
 .container-header h2,
@@ -148,6 +139,12 @@ footer {
 
 .form-elem input {
   width: 98%;
+  height: 35px;
+}
+
+.form label,
+.form small {
+  color: grey;
 }
 
 .form-elem button {
@@ -157,7 +154,7 @@ footer {
   height: 50px;
   border: none;
   border-radius: 10px;
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 .form-elem i {
@@ -181,6 +178,10 @@ footer {
   text-align: center;
 }
 
+.container-footer small,
+.terms p {
+  color: grey;
+}
 .container-header,
 .container-form {
   margin: 0 25px;
@@ -204,5 +205,6 @@ footer {
   display: flex;
   justify-content: center;
   align-content: center;
-  margin-top: 10px;
+  color: grey;
+  font-size: small;
 }
