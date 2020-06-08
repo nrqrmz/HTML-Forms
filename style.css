@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: lightgray;
+  background-color: rgb(236, 238, 241);
 }
 
 a {
@@ -15,6 +15,7 @@ a {
 
 footer {
   justify-content: center;
+  margin: 20px;
 }
 
 /* Editing the Navbar */
@@ -75,12 +76,47 @@ footer {
   max-height: auto;
 }
 
+.logos-container {
+  border: red solid 1px;
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.logo-mint {
+  max-width: 30px;
+  max-height: auto;
+}
+
+.label-mint {
+  border: black solid 1px;
+}
+
+.logo-quickbooks {
+  max-width: 30px;
+  max-height: auto;
+}
+
+.label-quickbooks {
+  border: black solid 1px;
+}
+
+.logo-turbotax {
+  max-width: 30px;
+  max-height: auto;
+}
+
+.label-turbotax {
+  border: black solid 1px;
+}
+
 .container {
   border: 1px gray solid;
   background-color: white;
   width: 400px;
   border-radius: 5px;
   max-width: 750px;
+  margin-bottom: 20px;
 }
 
 .container-header {
@@ -135,7 +171,7 @@ footer {
 }
 
 .container-footer {
-  background-color: lightgray;
+  background-color: rgb(236, 238, 241);
   width: auto;
   padding: 25px;
   margin-top: 20px;
