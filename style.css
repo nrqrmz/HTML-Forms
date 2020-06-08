@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: lightgray;
+  background-color: rgb(236, 238, 241);
 }
 
 a {
@@ -13,9 +13,15 @@ a {
   color: #2842ff;
 }
 
+footer {
+  justify-content: center;
+  margin: 20px;
+}
+
 /* Editing the Navbar */
 #navbar {
   display: grid;
+  padding: 5px;
 }
 
 .navbar-functions {
@@ -31,13 +37,13 @@ a {
   padding: 5px;
 }
 
-.forgotten-password a{
+.forgotten-password a {
   padding: 5px;
 }
 
 .sign-in {
   padding: 5px 5px 0 5px;
-  margin: 0 40px 0 0;
+  margin: 0 20px 0 0;
 }
 
 .sign-in button {
@@ -59,66 +65,110 @@ a {
   justify-content: center;
 }
 
+.intuit-logo-container {
+  text-align: center;
+  padding: 30px 0 0 0;
+}
+
+.intuit-logo {
+  text-align: center;
+  max-width: 115px;
+  max-height: auto;
+}
+
+.logos-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.logos {
+  width: 30px;
+  height: 30px;
+}
+
+.labels {
+  margin-top: 0.5%;
+  margin-right: 10px;
+  margin-left: 5px;
+  display: flex;
+  color: grey;
+}
+
 .container {
   border: 1px gray solid;
   background-color: white;
-  margin: 50px;
-  width: 31%;
+  width: 380px;
   border-radius: 5px;
+  max-width: 750px;
+  margin-bottom: 20px;
 }
 
-.container-header{
+.container-header {
   padding: 10px 0;
   margin-bottom: 10px;
+  text-align: center;
 }
 
-.container-header h2{
+.container-header h2 {
   margin: 10px 0 10px 0;
 }
 
-.container-header h2, .container-header p{
+.container-header p,
+.container-header a{
+  font-size: small;
+}
+
+.container-header h2,
+.container-header p {
   color: dimgray;
 }
 
-.container-header-element{
+.container-header-element {
   display: flex;
   justify-content: center;
 }
 
-.container-form{
+.container-form {
   padding: 10px 0;
 }
 
-.form-elem{
+.form-elem {
   margin-bottom: 40px;
 }
 
-.form-elem input{
+.form-elem input {
   width: 98%;
+  height: 35px;
 }
 
-.form-elem button{
+.form label,
+.form small {
+  color: grey;
+}
+
+.form-elem button {
   background-color: #2842ff;
   color: white;
   width: 100%;
   height: 50px;
   border: none;
   border-radius: 10px;
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
-.form-elem i{
+.form-elem i {
   margin-right: 25px;
 }
 
-.terms{
+.terms {
   padding: 0 20px;
   font-style: italic;
   text-align: center;
 }
 
-.container-footer{
-  background-color: lightgray;
+.container-footer {
+  background-color: rgb(236, 238, 241);
   width: auto;
   padding: 25px;
   margin-top: 20px;
@@ -128,11 +178,33 @@ a {
   text-align: center;
 }
 
-.container-header, .container-form{
+.container-footer small,
+.terms p {
+  color: grey;
+}
+.container-header,
+.container-form {
   margin: 0 25px;
 }
 
 /* Editing Footer */
 .footer-links {
   color: gray;
+}
+
+.footer-links-container {
+  text-align: center;
+}
+
+.disclaimer {
+  text-align: center;
+  width: 80%;
+}
+
+.disclaimer-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: grey;
+  font-size: small;
 }
