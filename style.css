@@ -16,6 +16,7 @@ a {
 footer {
   justify-content: center;
 }
+
 /* Editing the Navbar */
 #navbar {
   display: grid;
@@ -34,7 +35,7 @@ footer {
   padding: 5px;
 }
 
-.forgotten-password a{
+.forgotten-password a {
   padding: 5px;
 }
 
@@ -81,37 +82,38 @@ footer {
   max-width: 750px;
 }
 
-.container-header{
+.container-header {
   padding: 10px 0;
   margin-bottom: 10px;
 }
 
-.container-header h2{
+.container-header h2 {
   margin: 10px 0 10px 0;
 }
 
-.container-header h2, .container-header p{
+.container-header h2,
+.container-header p {
   color: dimgray;
 }
 
-.container-header-element{
+.container-header-element {
   display: flex;
   justify-content: center;
 }
 
-.container-form{
+.container-form {
   padding: 10px 0;
 }
 
-.form-elem{
+.form-elem {
   margin-bottom: 40px;
 }
 
-.form-elem input{
+.form-elem input {
   width: 98%;
 }
 
-.form-elem button{
+.form-elem button {
   background-color: #2842ff;
   color: white;
   width: 100%;
@@ -121,17 +123,17 @@ footer {
   font-size: 1.5em;
 }
 
-.form-elem i{
+.form-elem i {
   margin-right: 25px;
 }
 
-.terms{
+.terms {
   padding: 0 20px;
   font-style: italic;
   text-align: center;
 }
 
-.container-footer{
+.container-footer {
   background-color: lightgray;
   width: auto;
   padding: 25px;
@@ -142,7 +144,8 @@ footer {
   text-align: center;
 }
 
-.container-header, .container-form{
+.container-header,
+.container-form {
   margin: 0 25px;
 }
 
@@ -151,16 +154,16 @@ footer {
   color: gray;
 }
 
-.footer-links-container{
+.footer-links-container {
   text-align: center;
 }
 
-.disclaimer{
+.disclaimer {
   text-align: center;
   width: 80%;
 }
 
-.disclaimer-container{
+.disclaimer-container {
   display: flex;
   justify-content: center;
   align-content: center;
