@@ -20,6 +20,7 @@ footer {
 /* Editing the Navbar */
 #navbar {
   display: grid;
+  padding: 5px;
 }
 
 .navbar-functions {
@@ -41,7 +42,7 @@ footer {
 
 .sign-in {
   padding: 5px 5px 0 5px;
-  margin: 0 40px 0 0;
+  margin: 0 20px 0 0;
 }
 
 .sign-in button {
@@ -65,19 +66,19 @@ footer {
 
 .intuit-logo-container {
   text-align: center;
+  padding: 30px 0 0 0;
 }
 
 .intuit-logo {
   text-align: center;
-  max-width: 8%;
+  max-width: 115px;
   max-height: auto;
 }
 
 .container {
   border: 1px gray solid;
   background-color: white;
-  margin: 50px;
-  width: 31%;
+  width: 400px;
   border-radius: 5px;
   max-width: 750px;
 }
