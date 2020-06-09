@@ -163,6 +163,13 @@ footer {
   font-size: 10px;
 }
 
+#password {
+  background-image: URL('img/Open_Lock.png');
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-position: 290px 5px;
+}
+
 .form-elem button {
   background-color: #0077c5;
   color: white;
