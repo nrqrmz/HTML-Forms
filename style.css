@@ -33,7 +33,7 @@ footer {
 }
 
 .forgotten-password p {
-  color: grey;
+  color: #404040;
   padding: 5px;
 }
 
@@ -49,7 +49,7 @@ footer {
 .sign-in button {
   height: 100%;
   width: 100px;
-  background-color: #2842ff;
+  background-color: #0077c5;
   border: black solid 1px;
   border-radius: 5px;
   color: white;
@@ -67,7 +67,7 @@ footer {
 
 .intuit-logo-container {
   text-align: center;
-  padding: 30px 0 0 0;
+  padding: 20px 0 0 0;
 }
 
 .intuit-logo {
@@ -92,7 +92,7 @@ footer {
   margin-right: 10px;
   margin-left: 5px;
   display: flex;
-  color: grey;
+  color: #404040;
 }
 
 .container {
@@ -112,16 +112,20 @@ footer {
 
 .container-header h2 {
   margin: 10px 0 10px 0;
+  font-size: 24px;
 }
 
-.container-header p,
+.container-header p {
+  font-size: 14px;
+}
+
 .container-header a {
   font-size: small;
 }
 
 .container-header h2,
 .container-header p {
-  color: dimgray;
+  color: #404040;
 }
 
 .container-header-element {
@@ -130,6 +134,10 @@ footer {
 }
 
 .container-form {
+  padding: 10px 0;
+}
+
+.form {
   padding: 10px 0;
 }
 
@@ -144,17 +152,25 @@ footer {
 
 .form label,
 .form small {
-  color: grey;
+  color: #404040;
+}
+
+.form label{
+  font-size: 14px;
+}
+
+.form small{
+  font-size: 10px;
 }
 
 .form-elem button {
-  background-color: #2842ff;
+  background-color: #0077c5;
   color: white;
   width: 100%;
   height: 50px;
   border: none;
   border-radius: 10px;
-  font-size: 1.3em;
+  font-size: 15.75px;
 }
 
 .form-elem i {
@@ -162,9 +178,10 @@ footer {
 }
 
 .terms {
-  padding: 0 20px;
+  padding: 0 50px;
   font-style: italic;
   text-align: center;
+  font-size: 12px;
 }
 
 .container-footer {
