@@ -2,7 +2,7 @@
 
 In this project we try to replicate the mint.com sign up page.
 
-![webpage screenshot](https://github.com/nrqrmz/images/blob/master/HTML-Forms%20screenshot.png)
+![webpage screenshot](img/Screenshot.png)
 
 We have added a navigation bar with sign up buttons, a container that holds the form and a footer for the legal disclaimer.
 
@@ -14,7 +14,7 @@ We have added a navigation bar with sign up buttons, a container that holds the 
 
 # Live Demo
 
-https://rawcdn.githack.com/nrqrmz/HTML-Forms/93dc57f86ceb57df6aec590b23eeeb31298c2238/index.html
+https://rawcdn.githack.com/nrqrmz/HTML-Forms/f373acc6dcac13dc66f3691ed6ba1985b91a3bee/index.html
 
 # Getting Started
 To run the project simply download de .zip file, extract it, and open the index.html file with your favorite browser.
