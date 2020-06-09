@@ -155,19 +155,21 @@ footer {
   color: #404040;
 }
 
-.form label{
+.form label {
   font-size: 14px;
 }
 
-.form small{
+.form small {
   font-size: 10px;
 }
 
 #password {
-  background-image: URL('img/Open_Lock.png');
+  background-image: url('img/Open_Lock.png');
   background-repeat: no-repeat;
   background-size: 25px;
   background-position: 290px 5px;
+  border: 1px solid #767676;
+  border-radius: 3px;
 }
 
 .form-elem button {
