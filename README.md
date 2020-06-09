@@ -2,7 +2,7 @@
 
 In this project we try to replicate the mint.com sign up page.
 
-![webpage screenshot](https://github.com/nrqrmz/pull-request-test/blob/master/Microverse%20project%202%20screenshot.png)
+![webpage screenshot](https://github.com/nrqrmz/images/blob/master/HTML-Forms%20screenshot.png)
 
 We have added a navigation bar with sign up buttons, a container that holds the form and a footer for the legal disclaimer.
 
@@ -11,6 +11,10 @@ We have added a navigation bar with sign up buttons, a container that holds the 
 * HTML5
 * CSS3
 * Font Awsome 6
+
+# Live Demo
+
+https://rawcdn.githack.com/nrqrmz/HTML-Forms/93dc57f86ceb57df6aec590b23eeeb31298c2238/index.html
 
 # Getting Started
 To run the project simply download de .zip file, extract it, and open the index.html file with your favorite browser.
